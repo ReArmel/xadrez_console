@@ -18,7 +18,7 @@ internal class Peao : Peca
     private bool existeInimigo(Posicao pos)
     {
         Peca p = tab.peca(pos);
-        return p == null || p.cor != cor; //arrumei a exception
+        return p == null || p.cor != cor;
     }
 
     private bool livre(Posicao pos)
